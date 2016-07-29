@@ -11,5 +11,7 @@ function toRoman(num) {
         return "I";
     } else if (num === 5) {
         return "V";
+    } else if (num === 10) {
+        return "X";
     }
 }
