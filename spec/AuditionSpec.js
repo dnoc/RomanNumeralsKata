@@ -4,8 +4,7 @@ describe("Audition JavaScript Tests", function() {
     expect(JavaScriptAudition.itRuns()).toBeTruthy();
   });
 
-  describe("Add your tests here", function() {
-
-  });
+  it("converts 1 to Roman Numeral", function() {
+        expect(JavaScriptAudition.toRoman(1)).toBe("I");});
 
 });
