@@ -26,11 +26,11 @@ describe("Audition JavaScript Tests", function() {
           expect(toRoman(50)).toBe("L");});
 
   it("converts 100 to Roman Numeral", function() {
-             expect(toRoman(100)).toBe("C");});
+          expect(toRoman(100)).toBe("C");});
 
   it("converts 500 to Roman Numeral", function() {
-            expect(toRoman(500)).toBe("D");});
+          expect(toRoman(500)).toBe("D");});
 
   it("converts 1000 to Roman Numeral", function() {
-            expect(toRoman(1000)).toBe("M");});
+          expect(toRoman(1000)).toBe("M");});
 });
