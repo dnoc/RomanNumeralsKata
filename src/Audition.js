@@ -7,11 +7,11 @@ var JavaScriptAudition = {
 };
 
 function toRoman(num) {
-    if (num === 1){
-        return "I";
-    } else if (num === 5) {
-        return "V";
-    } else if (num === 10) {
-        return "X";
+    var lookup = {X:10,V:5,I:1},
+        roman = '',
+        i;
+    for (i in lookup) {
+        if (num === lookup[i])
+            return i;
     }
 }
