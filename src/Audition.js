@@ -12,7 +12,10 @@ function toRoman(num) {
         roman = '',
         i;
     for (i in lookup) {
-        if (num === lookup[i])
-            return i;
+        while (num >= lookup[i]) {
+            roman += i;
+            num -= lookup[i];
+        }
     }
+    return roman;
 }
