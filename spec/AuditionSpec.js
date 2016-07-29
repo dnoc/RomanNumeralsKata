@@ -8,7 +8,7 @@ describe("Audition JavaScript Tests", function() {
         expect(toRoman(1)).toBe("I");});
 
   it("converts 2 to Roman Numeral", function() {
-          expect(toRoman(2)).toBe("II");});
+        expect(toRoman(2)).toBe("II");});
 
   it("converts 4 to Roman Numeral", function() {
         expect(toRoman(4)).toBe("IV");});
@@ -17,20 +17,20 @@ describe("Audition JavaScript Tests", function() {
         expect(toRoman(5)).toBe("V");});
 
   it("converts 9 to Roman Numeral", function() {
-          expect(toRoman(9)).toBe("IX");});
+        expect(toRoman(9)).toBe("IX");});
 
   it("converts 10 to Roman Numeral", function() {
-          expect(toRoman(10)).toBe("X");});
+        expect(toRoman(10)).toBe("X");});
 
   it("converts 50 to Roman Numeral", function() {
-          expect(toRoman(50)).toBe("L");});
+        expect(toRoman(50)).toBe("L");});
 
   it("converts 100 to Roman Numeral", function() {
-          expect(toRoman(100)).toBe("C");});
+        expect(toRoman(100)).toBe("C");});
 
   it("converts 500 to Roman Numeral", function() {
-          expect(toRoman(500)).toBe("D");});
+        expect(toRoman(500)).toBe("D");});
 
   it("converts 1000 to Roman Numeral", function() {
-          expect(toRoman(1000)).toBe("M");});
+        expect(toRoman(1000)).toBe("M");});
 });
