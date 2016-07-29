@@ -4,6 +4,9 @@ describe("Audition JavaScript Tests", function() {
     expect(JavaScriptAudition.itRuns()).toBeTruthy();
   });
 
+  it("returns empty string if input is 0", function() {
+          expect(toRoman(0)).toBe("");});
+  
   it("converts 1 to Roman Numeral", function() {
         expect(toRoman(1)).toBe("I");});
 
