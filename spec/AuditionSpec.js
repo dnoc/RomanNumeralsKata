@@ -5,6 +5,6 @@ describe("Audition JavaScript Tests", function() {
   });
 
   it("converts 1 to Roman Numeral", function() {
-        expect(JavaScriptAudition.toRoman(1)).toBe("I");});
+        expect(toRoman(1)).toBe("I");});
 
 });
