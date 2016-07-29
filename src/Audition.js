@@ -7,5 +7,9 @@ var JavaScriptAudition = {
 };
 
 function toRoman(num) {
-    return "I";
+    if (num === 1){
+        return "I";
+    } else if (num === 5) {
+        return "V";
+    }
 }
